@@ -11,14 +11,11 @@ body {
   margin: auto;
   border-bottom: solid 2px #ccc;
   background-color: #fff;
-  
 }
-.centered{
-    width: 960px;
-    height: 60px;
-    
-    margin: auto;
-    
+.centered {
+  width: 960px;
+  height: 60px;
+  margin: auto;
 }
 .tittle {
   font-family: "Georgia", Times, Times New Roman, serif;
@@ -29,11 +26,9 @@ body {
   background-color: #4aaaa5;
   color: #fff;
   width: 250px;
-  
   float: left;
 }
 .navigation {
-  
   float: right;
   width: 500px;
   text-align: right;
@@ -42,13 +37,10 @@ body {
 .navigation a {
   color: #777;
   text-decoration: none;
-  
 }
-h4{
-  
+h4 {
   color: #777;
   display: inline;
-  
   margin: 15px;
 }
 
@@ -61,9 +53,7 @@ h4{
   clear: both;
   width: 960px;
   margin-top: 40px;
-  
   background-color: #fff;
-  
   border: solid 1px #ccc;
   display: inline-block;
 }
@@ -79,34 +69,31 @@ h4{
 }
 
 #profilePicture {
-    float: left;
-    margin-left: 30px;
-    margin-right: 30px;
-    border-radius: 10px;
-    width: 150px;
-  
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  width: 150px;
 }
 
-p{
-    text-align: justify;
-    color: #777;
-    
-    margin: 30px;
-    font-size: 20px;
-    line-height: 2.2em;
+p {
+  text-align: justify;
+  color: #777;
+  margin: 30px;
+  font-size: 20px;
+  line-height: 2.2em;
 }
 
-footer{
-    clear: both;
-    background-color: #666;
-    color:#ccc;
-    font-size: 16px;
-    line-height: 32px;
-    padding-top: 40px;
-    border-top: solid 10px #4aaaa5;
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
-    text-align: center;
-   
+footer {
+  clear: both;
+  background-color: #666;
+  color: #ccc;
+  font-size: 16px;
+  line-height: 32px;
+  padding-top: 40px;
+  border-top: solid 10px #4aaaa5;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
 }
