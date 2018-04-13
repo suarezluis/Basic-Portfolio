@@ -5,7 +5,6 @@ body {
   text-align: center;
 }
 
-
 .mainHeader {
   width: 100%;
   height: 60px;
@@ -28,18 +27,18 @@ body {
   color: #fff;
   width: 250px;
   float: left;
-  
 }
 .navigation {
   float: right;
   width: 500px;
   text-align: right;
   margin-top: 20px;
+  margin-right: -24px
 }
 .navigation a {
   color: #777;
   text-decoration: none;
-  padding:10px;
+  padding: 24px ;
 }
 h4 {
   color: #777;
@@ -63,7 +62,7 @@ h4 {
   border-radius: 25px;
 }
 
-.aboutMe {
+.secondHeader {
   font-family: "Georgia", Times, "Times New Roman", serif;
   text-align: left;
   color: #4aaaa5;
@@ -102,9 +101,53 @@ footer {
   bottom: 0px;
   text-align: center;
 }
-a:hover{
+a:hover {
   background-color: #4aaaa5;
   color: white;
-  border-radius: 10px;
   
+}
+
+.form {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: #777;
+  font-size: 18px;
+  width: 100%;
+  text-align: left;
+}
+label {
+  margin-left: 30px;
+  display: block;
+}
+input {
+  margin: 5px 30px;
+}
+input[type="text"] {
+  width: 900px;
+  height: 30px;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 895px;
+  margin: 5px 30px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  width: 120px;
+  height: 50px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: #777;
+  font-size: 18px;
+  background-color: #4aaaa5;
+  color: #fff;
 }
