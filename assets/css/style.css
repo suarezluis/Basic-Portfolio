@@ -179,7 +179,18 @@ input[type="submit"] {
   color: #fff;
   text-align: center;
   display: inline-block;
-  margin-bottom: 174px;
+  margin-bottom: 185px;
+  
   padding-top: 5px;
   clear: both;
+}
+
+.appNames a{
+  background-color: transparent;
+  
+
+.appNames a:hover{
+  background-color: white;
+  width: 0px;
+  
 }
